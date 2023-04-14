@@ -6,6 +6,7 @@
     position: fixed;
     width: 100%;
     opacity: 80%;
+    z-index: 1;
 }
 
 .nav-item {
@@ -21,6 +22,7 @@
     width: 100%;
     object-fit: cover;
     display: flex;
+    z-index: -200;
 }
 
 .hero-text-box {
@@ -49,7 +51,6 @@
     border: 1px solid #C68B59;
     margin-right: 15px;
     color: #fff;
-    margin-right: 15px;
 }
 .btn-ghost:link,
 .btn-ghost:visited{
@@ -84,10 +85,7 @@
 .section-block {
     background-color: #A36938;
     z-index: -1;
-}
-
-#contact-us {
-    width: 99%;
+    width: 100%;
 }
 
 footer {
