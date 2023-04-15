@@ -105,6 +105,26 @@
                 </ul>
               </li>
             </ul>
+            
+            <div class="icons">
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+
+        <!-- CART SECTION -->
+        <div class="cart">
+            <h2 class="cart-title">Your Cart:</h2>
+            <div class="cart-content">
+            </div>
+
+            <div class="total">
+                <div class="total-title">Total: </div>
+                <div class="total-price">₱0</div>
+            </div>
+
+            <!-- BUY BUTTON -->
+            <button type="button" class="btn-buy">Checkout Now</button>
+        </div>
+            
             <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
@@ -258,52 +278,7 @@
         <div class="col-xl-5 col-lg-5"><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61957.22628200244!2d121.5941553221979!3d13.93914635238011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4b578caf4ccd%3A0x2be1e905c862fe1!2sLucena%2C%204301%20Quezon!5e0!3m2!1sen!2sph!4v1681228108302!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
-
-    <!-- CHAT BAR BLOCK -->
-    <div class="chat-bar-collapsible">
-        <button id="chat-button" type="button" class="collapsible">Chat with us! &nbsp;
-            <i id="chat-icon" style="color: #fff;" class="fas fa-comments"></i>
-        </button>
-
-        <div class="content">
-            <div class="full-chat-block">
-                <!-- Message Container -->
-                <div class="outer-container">
-                    <div class="chat-container">
-                        <!-- Messages -->
-                        <div id="chatbox">
-                            <h5 id="chat-timestamp"></h5>
-                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
-                        </div>
-
-                        <!-- User input box -->
-                        <div class="chat-bar-input-block">
-                            <div id="userInput">
-                                <input id="textInput" class="input-box" type="text" name="msg"
-                                    placeholder="Tap 'Enter' to send a message">
-                                <p></p>
-                            </div>
-
-                            <div class="chat-bar-icons">
-                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-paper-plane"
-                                    onclick="sendButton()"></i>
-                            </div>
-                        </div>
-
-                        <div id="chat-bar-bottom">
-                            <p></p>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
- 
-
-    
+      
     <!-- CHAT BAR BLOCK -->
     <div class="chat-bar-collapsible">
         <button id="chat-button" type="button" class="collapsible">Chat with us! &nbsp;
