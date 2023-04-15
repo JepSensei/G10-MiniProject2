@@ -100,7 +100,7 @@
     right: 0;
 }
 
-cart .cart-item {
+.cart .cart-item {
     position: relative;
     margin: 2rem 0;
     display: flex;
