@@ -23,6 +23,9 @@
       rel="stylesheet"
       href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
     />
+    <link rel="stylesheet" href="chat.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
   </head>
 
   <body>
@@ -33,7 +36,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img
-              class="navbarLogo"
+              class="navbarLogo"       
               src="https://github.com/JepSensei/MP1-JeffreyCawagas/blob/main/images/kapetannLogo.jpg?raw=true"
               alt="business logo"
           /></a>
@@ -97,9 +100,9 @@
                     >
                   </li>
                 </ul>
-              </li>
+               </li>
             </ul>
-            <form class="d-flex" role="search">
+              <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
                 type="search"
@@ -114,7 +117,7 @@
         </div>
       </nav>
     </header>
-
+         
     <section>
       <div class="hero-text-box">
         <h1>
@@ -127,8 +130,8 @@
       <div class="mainBackground img-fluid">
         <img
           class="background-img"
-          src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t39.30808-6/335343958_945266369983874_8353505693809191898_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEuy8G8jM9HcrIe0s14QYr-cuNeN8q9_Nxy4143yr383Jm6WqujIqZk1m-w1PBAAfBKGx3C01FvOhBF6zfrh2Vl&_nc_ohc=KnguGyqZZvMAX-81u6I&_nc_ht=scontent.fmnl17-4.fna&oh=00_AfC4plNW16skNuKSNnJQFN4a3_X5D-snG6AlrSV-zh0n0g&oe=643DA935"
-          alt=""
+          src="https://scontent.fmnl34-1.fna.fbcdn.net/v/t39.30808-6/335343958_945266369983874_8353505693809191898_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHhoRbyhOa679lJ-12JrBOUcuNeN8q9_Nxy4143yr383MugFar4k3SKfCzFcHui9NsQTJ4-hUsvGJgD62gAnCqf&_nc_ohc=2HeaiVfeVb0AX9i8p-u&_nc_zt=23&_nc_ht=scontent.fmnl34-1.fna&oh=00_AfD8glyi4E2IhIfUSJgrD5HJNYGX0InkVrl1-yHlMFeUQw&oe=645369F5"
+        alt="background image"            
         />
       </div>
     </section>
@@ -249,9 +252,52 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-5">Put Google Maps here!</div>
-      </div>
+        <div class="col-xl-5 col-lg-5"><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61957.22628200244!2d121.5941553221979!3d13.93914635238011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4b578caf4ccd%3A0x2be1e905c862fe1!2sLucena%2C%204301%20Quezon!5e0!3m2!1sen!2sph!4v1681228108302!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
+      
+     <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us! &nbsp;
+            <i id="chat-icon" style="color: #fff;" class="fas fa-comments"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-paper-plane"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 
     <footer class="footer mt-auto py-3 bg-black">
       <div class="container">
@@ -264,6 +310,11 @@
       </div>
     </footer>
 
+    <!--     javascript -->
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="chat.js"></script>
+    <script src="responses.js"></script>
     <script src="main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
