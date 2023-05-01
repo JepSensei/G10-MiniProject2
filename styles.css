@@ -147,6 +147,10 @@
     width: 100%;
 }
 
+#chatBox {
+    z-index: 1;
+}
+
 footer {
     color: #fff;
     opacity: 80%;
