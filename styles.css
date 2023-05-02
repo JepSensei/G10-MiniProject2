@@ -40,6 +40,10 @@
     padding: 2px 3px;
 }
 
+.aboutIcon {
+    color: #C68B59;
+}
+
 .btn:link,
 .btn:visited{
     display: inline-block;
