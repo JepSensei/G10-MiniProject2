@@ -13,11 +13,9 @@
 
 ## Project Goals / Services provided by the application
 
-1. To have online coffee shop from the customers.
+1. To have online coffee shop from the customers
 2. For inquiry about the menu of the Coffee Shop using chatbot API
-3. Location of the store in website.
-4.
-5.
+3. Location of the store in website using Contact Us Google Map
 
 ## TECHNOLOGIES USED
 
@@ -33,18 +31,15 @@
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+## Netlify Link : 
 
 ## CONTRIBUTORS:
 
-1.  Jeffrey Cawagas
-2. Charles Adrian C. Virtucio
-3. Aldrien Allanigue
+1. Jeffrey Cawagas
+2. Charles Adrian Virtucio
 
 ## CURRENT FEATURES IMPLEMENTED
 
 1. Responsive Web Design
 2. chatbot API
 3. Mobile Friendly
-4.
-5.
-
