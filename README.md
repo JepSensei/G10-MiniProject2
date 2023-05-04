@@ -31,7 +31,9 @@
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-##Netlify Link[ group10-miniproject2-kapetann.netlify.app]
+##Netlify Link
+https://group10-miniproject2-kapetann.netlify.app/
+
 ## CONTRIBUTORS:
 
 1. Jeffrey Cawagas
